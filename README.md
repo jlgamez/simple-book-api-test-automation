@@ -13,7 +13,7 @@ This Python project uses the pipenv tool and the Pytest test runner to automate 
 - Install Pipenv: `$ pip install pipenv`
 - Install dependencies: In the project directory run `$ pipenv install`
 - Activate virtual env: In the project directory run `$ pipenv shell`
-##Execute tests
+## Execute tests
 - Run `$ pytest` to execute all tests.
 - Run `$ pytest -k "test_name"` to execute a specific test
 - Run `$ pytest --maxfail={number_failures_allowed}` to indicate Pytest to stop after a specific number of failures.
