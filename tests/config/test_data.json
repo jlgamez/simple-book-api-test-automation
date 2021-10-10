@@ -1,0 +1,28 @@
+{
+  "baseUri": "https://simple-books-api.glitch.me",
+  "userInfo": {
+    "clientName": "randomCliEnt",
+    "clientEmail": "randomCliEnt@example.com",
+    "accessToken": "ac11e051f36ff55428fff8bff2bdf50e91eacbcf72356d323d409223772b21c1",
+    "updatedClientName": "Elias"
+  },
+  "booksRetrievalTestData": {
+    "fictionParameter": "fiction",
+    "nonFictionParameter": "non-fiction",
+    "validLimitValues": [1, 15, 20],
+    "invalidLimitValues": [-1, 0, 21, 22],
+    "getBookByIdData": {
+      "id": 1,
+      "title": "The Russian"
+    }
+  },
+  "endpoints": {
+    "booksEndpoint": "/books/",
+    "ordersEndpoint": "/orders/",
+    "authenticationEndpoint": "/api-clients/"
+  },
+  "generalHeaders": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  }
+}
