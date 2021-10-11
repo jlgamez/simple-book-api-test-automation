@@ -1,6 +1,6 @@
 # Simple Book API test automation
 ## General description
-This Python project uses the pipenv tool and the Pytest test runner to automate API testing fot the simple book API 
+This Python project uses the pipenv tool and the Pytest framework runner to automate API testing for the simple book API 
 (https://simple-books-api.glitch.me)
 # Project structure
 - The code acts on the API over the internet using the requests library. Therefore, no API code is hosted in this project.
